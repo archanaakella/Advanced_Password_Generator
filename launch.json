@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "edge",                        // Specifies the debugger type (Edge)
+            "request": "launch",                   // Specifies the action to launch the debugger
+            "name": "Launch Edge against localhost", // Name of this configuration
+            "url": "http://localhost:8080/",       // URL of the web application to debug
+            "webRoot": "${password_generator}"         // Root folder of the web application (workspace folder)
+        }
+    ]
+}
